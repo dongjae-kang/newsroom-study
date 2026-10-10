@@ -1,0 +1,512 @@
+{
+  "title": "The Newsroom Study",
+  "updated": "2026-10-10",
+  "intervals": [
+    1,
+    3,
+    7,
+    14,
+    30
+  ],
+  "episodes": [
+    {
+      "id": "S01E01",
+      "season": 1,
+      "number": 1,
+      "title": "We Just Decided To",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e01",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": true,
+      "secondaryUrl": "https://subtitlecat.com/subs/673/The%20Newsroom%20-%201x01%20-%20We%20Just%20Decided%20To.HDTV.ASAP.en.html",
+      "summary": "정부의 역할을 논하는 대학 패널 토론에서 시작해, 대규모 원유 유출을 보도하는 뉴스룸으로 이어진다.",
+      "focus": "기준의 일관성 · 공통점 만들기 · 보도의 책임",
+      "briefing": [
+        {
+          "title": "2010년의 미국 정치",
+          "text": "2012년에 방영된 이 화의 핵심 뉴스 사건은 2010년에 발생했다. 당시 Barack Obama가 대통령이고, 제111대 의회에서 민주당은 상원과 하원 모두 다수당이었다. Congress는 의회 전체, House는 하원, Senate는 상원이다.",
+          "sources": [
+            {
+              "label": "미 하원 역사 자료",
+              "url": "https://history.house.gov/Congressional-Overview/Profiles/111th/"
+            }
+          ]
+        },
+        {
+          "title": "American exceptionalism",
+          "text": "미국의 역사·정치체제가 특별하다는 관념은 정치적 언어에서 미국이 다른 나라보다 우월하다는 주장과 연결되기도 한다. 첫 대학 토론에서는 국가에 대한 믿음과 그 믿음을 뒷받침하는 근거를 구분해서 듣는다.",
+          "sources": [
+            {
+              "label": "Pew 개념 설명",
+              "url": "https://www.pewresearch.org/politics/2006/05/09/the-problem-of-american-exceptionalism/"
+            }
+          ]
+        },
+        {
+          "title": "케이블 뉴스의 시청자 경쟁",
+          "text": "ACN은 허구의 방송사다. 실제 당시 CNN·Fox News·MSNBC 시청자들의 정치적 구성에는 차이가 있었다. 인기, 편집 판단, 시민에게 필요한 정보 사이의 갈등을 살핀다.",
+          "sources": [
+            {
+              "label": "Pew 조사",
+              "url": "https://www.pewresearch.org/2009/10/30/partisanship-and-cable-news-audiences/"
+            },
+            {
+              "label": "작품 개요",
+              "url": "https://en.wikipedia.org/wiki/The_Newsroom_(American_TV_series)"
+            }
+          ]
+        },
+        {
+          "title": "Deepwater Horizon 사고",
+          "text": "2010년 4월 20일 멕시코만 시추시설에서 폭발이 발생해 11명이 사망했고 대규모 원유 유출로 이어졌다. Deepwater Horizon은 시설 이름, Macondo는 유정 이름이다.",
+          "sources": [
+            {
+              "label": "NOAA",
+              "url": "https://response.restoration.noaa.gov/oil-and-chemical-spills/significant-incidents/deepwater-horizon-oil-spill"
+            }
+          ]
+        },
+        {
+          "title": "BP·Transocean·Halliburton의 역할",
+          "text": "BP는 유정 작업의 사업자, Transocean은 시추시설 소유·운영 업체, Halliburton은 시멘트 작업 등 전문 서비스를 제공한 계약업체였다. 소유·운영·계약 역할과 법적 책임 판단은 구분한다.",
+          "sources": [
+            {
+              "label": "미 화학안전위원회 보고서",
+              "url": "https://www.csb.gov/assets/1/7/vol_1_final.pdf"
+            }
+          ]
+        },
+        {
+          "title": "Minerals Management Service",
+          "text": "당시 해양 자원 개발 관리, 안전·환경 감독, 관련 수입 징수를 함께 맡았던 내무부 기관이다. 사고 이후 임무 간 이해충돌을 줄이기 위해 기능이 분리되었다. 제도 개편은 사고 뒤의 일이다.",
+          "sources": [
+            {
+              "label": "당시 정부 설명",
+              "url": "https://www.boem.gov/newsroom/press-releases/interior-department-completes-reorganization-former-mms"
+            }
+          ]
+        },
+        {
+          "title": "Oil Pollution Act of 1990",
+          "text": "사건을 이해하는 보충 법제 배경이다. 유출 예방·대응과 복구 비용 부담의 틀을 마련하고, 책임 당사자가 처리하지 못할 경우 사용할 기금도 두었다. Liability는 법적 책임, accountability는 설명과 책임을 요구하는 더 넓은 개념이다.",
+          "sources": [
+            {
+              "label": "EPA 법률 개요",
+              "url": "https://www.epa.gov/laws-regulations/summary-oil-pollution-act"
+            }
+          ]
+        }
+      ],
+      "units": [
+        {
+          "id": "NR-S01E01-001",
+          "title": "상대의 기준으로 되묻기",
+          "scene": "대학 패널 토론 · 정부의 역할",
+          "quote": "By your definition, so were Ronald Reagan’s.",
+          "literal": "당신의 정의에 따르면, 로널드 레이건의 정책들도 그랬습니다.",
+          "natural": "그 기준이라면 레이건의 정책도 사회주의였다는 얘기군요.",
+          "context": "한 패널이 오바마의 정책을 사회주의라고 분류하자, 다른 패널은 그 기준을 레이건에게도 적용한다. 핵심은 상대가 제시한 기준이 일관적인지 시험하는 데 있다.",
+          "grammar": [
+            {
+              "label": "By your definition",
+              "text": "“당신이 내린 정의에 따르면”이라는 판단 기준을 먼저 제시한다."
+            },
+            {
+              "label": "so + be + subject",
+              "text": "앞에서 말한 성질이 다른 대상에도 해당한다는 도치 구문이다. 여기서 so는 “그러므로”가 아니라 “역시”에 가깝다."
+            },
+            {
+              "label": "Reagan’s → Reagan’s policies",
+              "text": "앞 문맥에 나온 policies를 생략했다. 복수의 정책들이 주어이므로 was 대신 were를 쓴다."
+            }
+          ],
+          "register": "argumentative · pointed",
+          "nuance": "상대가 받아들이기 어려운 결론을 그 사람의 기준에서 끌어낸다. 수업에서는 your를 that으로 바꾸면 상대 개인을 겨냥하는 느낌이 줄어든다.",
+          "reference": "Ronald Reagan은 감세와 규제 완화를 내세운 공화당 보수 정치의 상징이다. 이 이름을 드는 목적은 분류 기준을 시험하는 것이다. 대사가 레이건의 정책을 역사적으로 사회주의라고 입증하는 것은 아니다.",
+          "referenceSource": {
+            "label": "Reagan Presidential Library",
+            "url": "https://www.reaganlibrary.gov/reagans/reagan-administration/reagan-presidency"
+          },
+          "expression": "By that definition, ...",
+          "meaning": "그 정의나 기준을 적용하면",
+          "example": "By that definition, our own proposal would also count as government intervention.",
+          "exampleKo": "그 기준이라면 우리 제안도 정부 개입에 해당하겠네요.",
+          "check": "Reagan’s 뒤에는 어떤 명사가 생략되어 있을까요? 왜 were를 쓸까요?",
+          "checkAnswer": "policies가 생략되어 있습니다. 복수 명사를 가리키므로 were를 씁니다.",
+          "prompt": "“그 기준이라면 이 연구도 실험에 해당하겠네요.”를 영어로 말해 보세요.",
+          "model": "By that definition, this study would also count as an experiment.",
+          "time": "00:30",
+          "timeNote": "HDTV.ASAP 웹 색인의 참고 시간. HBO 재생 시간과 미대조.",
+          "verification": "두 외부 전사본에서 문구 일치. 공식 영상의 화자·시간은 미확인.",
+          "sources": [
+            {
+              "label": "전사본에서 장면 확인",
+              "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e01"
+            },
+            {
+              "label": "보조 자막 출처",
+              "url": "https://subtitlecat.com/subs/673/The%20Newsroom%20-%201x01%20-%20We%20Just%20Decided%20To.HDTV.ASAP.en.html"
+            }
+          ]
+        },
+        {
+          "id": "NR-S01E01-002",
+          "title": "작은 합의부터 만들기",
+          "scene": "대학 패널 토론 · 정부의 역할",
+          "quote": "So we can agree that the government is good for that?",
+          "literal": "그러면 정부가 그 일에는 도움이 된다는 데 우리가 동의할 수 있겠군요?",
+          "natural": "그럼 적어도 그 역할은 정부가 해야 한다는 데 동의하시는 거죠?",
+          "context": "군대와 공공서비스의 사례를 통해 정부의 역할에 대한 최소한의 합의를 확보하려 한다. 한 사례에 대한 동의가 정부의 모든 활동을 승인한다는 뜻은 아니다.",
+          "grammar": [
+            {
+              "label": "So",
+              "text": "앞선 발언에서 결론을 끌어내는 연결어다. 앞 학습 구문의 so were와는 역할이 다르다."
+            },
+            {
+              "label": "we can agree that + clause",
+              "text": "합의할 수 있는 명제를 that절에 담는다. we를 쓰면 논쟁 당사자를 같은 판단의 주체로 묶는다."
+            },
+            {
+              "label": "a statement + ?",
+              "text": "어순은 평서문이고 끝을 질문으로 처리한다. 새 정보를 묻기보다 상대에게 동의를 확인하거나 요구하는 효과가 있다."
+            }
+          ],
+          "register": "rhetorical · confirmatory",
+          "nuance": "합의의 범위를 좁혀 다음 논점으로 넘어가는 표현이다. 너무 단정적으로 말하면 상대를 몰아붙이는 듯 들릴 수 있다. 미팅에서는 Can we agree on…?으로 합의 여부를 열어 두는 방식도 쓸 수 있다.",
+          "reference": "공공서비스 사례를 제시해 정부의 존재 자체와 개별 정책의 타당성을 구분한다. 이 문장에는 특정 역사·문학 작품에 대한 직접 인용이 확인되지 않았다.",
+          "expression": "Can we agree on ...?",
+          "meaning": "우선 …에는 합의할 수 있을까요?",
+          "example": "Can we agree on the evaluation criteria before we compare the models?",
+          "exampleKo": "모델들을 비교하기 전에 평가 기준부터 합의할 수 있을까요?",
+          "check": "여기서 so는 첫 구문의 so were와 어떻게 다를까요?",
+          "checkAnswer": "여기서는 앞선 말에서 결론을 도출하는 “그러면”입니다. so were의 so는 앞서 언급한 성질이 다른 대상에도 해당함을 나타냅니다.",
+          "prompt": "모델의 안전성을 논하기 전에 “어떤 위험을 측정하는지부터 합의하자”는 문장을 만들어 보세요.",
+          "model": "Can we agree on which risks we are measuring before we discuss whether the model is safe?",
+          "time": null,
+          "timeNote": "장면 위치로 안내합니다. HBO 타임코드는 아직 확인하지 않았습니다.",
+          "verification": "주 전사본에서 문구 확인. 공식 영상의 화자·시간은 미확인.",
+          "sources": [
+            {
+              "label": "전사본에서 장면 확인",
+              "url": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e01"
+            }
+          ]
+        }
+      ],
+      "quiz": [
+        {
+          "q": "첫 구문의 Reagan’s 뒤에 생략된 말은 무엇이고, 왜 were를 쓰나요?",
+          "a": "Reagan’s policies입니다. 앞에서 말한 복수의 policies를 받아 were를 씁니다.",
+          "kind": "문장 구조"
+        },
+        {
+          "q": "미팅에서 By your definition 대신 By that definition을 쓰면 어떤 차이가 생기나요?",
+          "a": "your는 상대가 제시한 정의라는 점을 부각합니다. that은 기준 자체에 초점을 두어 개인을 겨냥하는 느낌을 줄일 수 있습니다. 어조와 맥락도 영향을 줍니다.",
+          "kind": "뉘앙스"
+        },
+        {
+          "q": "Deepwater Horizon과 Macondo는 각각 무엇을 가리키나요?",
+          "a": "Deepwater Horizon은 시추시설이고 Macondo는 유정 이름입니다. 시설·사업자·서비스 계약자의 역할을 구분해야 책임에 관한 주장을 정확히 이해할 수 있습니다.",
+          "kind": "배경"
+        },
+        {
+          "q": "정부가 군대를 운영하는 데 동의하면 모든 정부 정책에도 동의한 것일까요?",
+          "a": "아닙니다. 특정 기능에 관한 합의의 범위와 다른 정책의 타당성을 구분해야 합니다. 작은 합의를 넓은 결론으로 옮기려면 추가 근거가 필요합니다.",
+          "kind": "논증"
+        },
+        {
+          "q": "AI 정책 토론에서 판단 기준을 일관되게 적용하자고 제안하는 문장을 말해 보세요.",
+          "a": "예시: By that definition, voluntary reporting would also count as regulation. 실제로 두 사례가 같은 기준을 충족하는지 설명을 덧붙이세요. 이 문장은 직접 만든 연습 예문입니다.",
+          "kind": "직접 말하기"
+        }
+      ],
+      "quizScope": "준비된 배경 브리핑과 도입부 두 구문 범위",
+      "rhetoric": [
+        {
+          "name": "같은 기준, 다른 사례",
+          "en": "Consistency test",
+          "text": "상대가 제시한 기준을 그 사람이 선호하는 사례에도 적용한다. 사례 사이의 관련성이 실제로 성립하는지 설명해야 설득력이 생긴다.",
+          "example": "If we apply the same standard to both proposals, what changes?"
+        },
+        {
+          "name": "동의의 범위 좁히기",
+          "en": "Common ground",
+          "text": "큰 이념 논쟁을 하나의 구체적인 기능으로 좁힌다. 그 합의를 확인한 뒤 다음 쟁점으로 이동한다.",
+          "example": "We agree on the goal. Which part of the implementation concerns you?"
+        },
+        {
+          "name": "반복되는 구조 듣기",
+          "en": "Parallel structure",
+          "text": "첫 토론의 반복되는 질문은 무엇에 답해야 하는지 선명하게 만든다. 상대를 몰아붙이는 강도보다 문장의 구조를 학습한다.",
+          "example": "What do we know, what do we assume, and what do we still need to test?"
+        }
+      ]
+    },
+    {
+      "id": "S01E02",
+      "season": 1,
+      "number": 2,
+      "title": "News Night 2.0",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e02",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": "https://www.subtitlecat.com/subs/673/The%20Newsroom%20-%201x02%20-%20News%20Night%202.0.HDTV.ASAP.en.html"
+    },
+    {
+      "id": "S01E03",
+      "season": 1,
+      "number": 3,
+      "title": "The 112th Congress",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e03",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": "https://www.subtitlecat.com/subs/673/The%20Newsroom%20-%201x03%20-%20The%20112th%20Congress.HDTV.ASAP.en.html"
+    },
+    {
+      "id": "S01E04",
+      "season": 1,
+      "number": 4,
+      "title": "I'll Try to Fix You",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e04",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S01E05",
+      "season": 1,
+      "number": 5,
+      "title": "Amen",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e05",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S01E06",
+      "season": 1,
+      "number": 6,
+      "title": "Bullies",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e06",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S01E07",
+      "season": 1,
+      "number": 7,
+      "title": "5/1",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e07",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S01E08",
+      "season": 1,
+      "number": 8,
+      "title": "The Blackout (1): Tragedy Porn",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e08",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S01E09",
+      "season": 1,
+      "number": 9,
+      "title": "The Blackout (2): Mock Debate",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e09",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S01E10",
+      "season": 1,
+      "number": 10,
+      "title": "The Greater Fool",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s01e10",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E01",
+      "season": 2,
+      "number": 1,
+      "title": "First Thing We Do, Let's Kill All the Lawyers",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e01",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E02",
+      "season": 2,
+      "number": 2,
+      "title": "The Genoa Tip",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e02",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E03",
+      "season": 2,
+      "number": 3,
+      "title": "Willie Pete",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e03",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E04",
+      "season": 2,
+      "number": 4,
+      "title": "Unintended Consequences",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e04",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E05",
+      "season": 2,
+      "number": 5,
+      "title": "News Night With Will McAvoy",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e05",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E06",
+      "season": 2,
+      "number": 6,
+      "title": "One Step Too Many",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e06",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E07",
+      "season": 2,
+      "number": 7,
+      "title": "Red Team III",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e07",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E08",
+      "season": 2,
+      "number": 8,
+      "title": "Election Night (1)",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e08",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S02E09",
+      "season": 2,
+      "number": 9,
+      "title": "Election Night (2)",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s02e09",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S03E01",
+      "season": 3,
+      "number": 1,
+      "title": "Boston",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s03e01",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S03E02",
+      "season": 3,
+      "number": 2,
+      "title": "Run",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s03e02",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S03E03",
+      "season": 3,
+      "number": 3,
+      "title": "Main Justice",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s03e03",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S03E04",
+      "season": 3,
+      "number": 4,
+      "title": "Contempt",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s03e04",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S03E05",
+      "season": 3,
+      "number": 5,
+      "title": "Oh Shenandoah",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s03e05",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    },
+    {
+      "id": "S03E06",
+      "season": 3,
+      "number": 6,
+      "title": "What Kind Of Day Has It Been",
+      "sourceUrl": "https://www.springfieldspringfield.co.uk/view_episode_scripts.php?tv-show=the-newsroom&episode=s03e06",
+      "sourceChecked": "2026-10-10",
+      "sourceStatus": "출처 페이지·본문 확인",
+      "prepared": false,
+      "secondaryUrl": null
+    }
+  ],
+  "sourceNote": "외부 전사본은 비공식 자료입니다. 페이지와 대사 본문 존재를 확인했으며, 전체 정확성·화자·HBO 타임코드 대조는 진행 중입니다.",
+  "materialNote": "현재 S1E1 배경 7개와 도입부 2개 학습 단위가 준비되어 있습니다. 이후 에피소드는 출처부터 확인할 수 있습니다."
+}
