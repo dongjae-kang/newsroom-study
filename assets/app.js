@@ -1,5 +1,7 @@
+import {renderReader} from './reader.mjs';
 const KEY = 'newsroom-study.v1';
 const main = document.querySelector('#main');
+document.querySelector('.skip').addEventListener('click',event=>{event.preventDefault();main.focus();});
 const esc = (v='') => String(v).replace(/[&<>"']/g, c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const safeUrl = value => { try { const u = new URL(value); return ['http:','https:'].includes(u.protocol) ? u.href : '#'; } catch { return '#'; } };
 const link = (url,label,cls='')=>`<a class="${cls}" href="${esc(safeUrl(url))}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
@@ -23,7 +25,7 @@ function renderCatalog() {
   const current=allUnits().find(u=>u.id===state.lastUnit) || allUnits()[0];
   const currentEpisode=course.episodes.find(e=>e.id===current.episode);
   const preparedCount=course.episodes.filter(e=>e.prepared).length;
-  main.innerHTML=`<section class="hero"><div><span class="eyebrow">THE NEWSROOM / ENGLISH STUDY</span><h1>좋은 문장을 이해하고,<br>내 생각으로 <em>말하기.</em></h1><p class="hero-intro">한 장면씩 영어와 그 뒤의 미국 정치·미디어를 읽습니다.<br>인상 깊은 대사를 수업과 미팅에서 쓸 수 있는 나의 문장으로.</p><div class="hero-meta"><span>3 SEASONS</span><span>25 EPISODES</span><span>ONE SCENE AT A TIME</span></div></div><aside class="today"><span class="eyebrow">YOUR STUDY DESK</span><span class="chapter-code">S${currentEpisode.season} E${currentEpisode.number} · 장면 학습</span><h2>${esc(currentEpisode.title)}</h2><p class="description">${esc(current.title)}<br>배경을 읽고, 문장을 분석하고, 직접 말해 보세요.</p>${button(unitRoute(current),`학습 이어가기 <span aria-hidden="true">↗</span>`)}</aside></section><section aria-labelledby="catalog-title"><div class="section-head"><div><h2 id="catalog-title">에피소드 라이브러리</h2><p>방영 순서대로 쌓아가는 영어와 생각의 기록</p></div><span class="muted">${String(preparedCount).padStart(2,'0')} / ${course.episodes.length} 노트 작성 중</span></div><div class="catalog-controls"><div class="season-control" aria-label="시즌 필터">${[0,1,2,3].map(s=>`<button type="button" class="filter ${season===s?'active':''}" data-season="${s}" aria-pressed="${season===s}">${s===0?'전체':`Season ${s}`}</button>`).join('')}</div><label class="search"><span aria-hidden="true">⌕</span><span class="visually-hidden">에피소드 검색</span><input id="episode-search" type="search" placeholder="제목 또는 에피소드 검색" value="${esc(query)}"></label></div><div id="episode-grid" class="episode-grid"></div><p class="catalog-note">${esc(course.materialNote)} 원문 출처와 학습 노트는 각 에피소드에서 확인하세요.</p></section>`;
+  main.innerHTML=`<section class="hero"><div><span class="eyebrow">THE NEWSROOM / ENGLISH STUDY</span><h1>좋은 문장을 이해하고,<br>내 생각으로 <em>말하기.</em></h1><p class="hero-intro">에피소드의 흐름을 먼저 읽고, 필요한 표현을 깊이 공부합니다.<br>원문과 번역을 함께 읽은 뒤 나의 문장으로 바꿔 보세요.</p><div class="hero-meta"><span>3 SEASONS</span><span>25 EPISODES</span><span>READ THE WHOLE STORY</span></div></div><aside class="today"><span class="eyebrow">YOUR STUDY DESK</span><span class="chapter-code">S${currentEpisode.season} E${currentEpisode.number} · 장면 학습</span><h2>${esc(currentEpisode.title)}</h2><p class="description">${esc(current.title)}<br>전체 흐름을 읽고 필요한 대목의 해설을 확인하세요.</p>${button(`#reader/${currentEpisode.id}`,`연속 읽기 열기 <span aria-hidden="true">↗</span>`)}</aside></section><section aria-labelledby="catalog-title"><div class="section-head"><div><h2 id="catalog-title">에피소드 라이브러리</h2><p>방영 순서대로 쌓아가는 영어와 생각의 기록</p></div><span class="muted">${String(preparedCount).padStart(2,'0')} / ${course.episodes.length} 노트 작성 중</span></div><div class="catalog-controls"><div class="season-control" aria-label="시즌 필터">${[0,1,2,3].map(s=>`<button type="button" class="filter ${season===s?'active':''}" data-season="${s}" aria-pressed="${season===s}">${s===0?'전체':`Season ${s}`}</button>`).join('')}</div><label class="search"><span aria-hidden="true">⌕</span><span class="visually-hidden">에피소드 검색</span><input id="episode-search" type="search" placeholder="제목 또는 에피소드 검색" value="${esc(query)}"></label></div><div id="episode-grid" class="episode-grid"></div><p class="catalog-note">${esc(course.materialNote)} 원문 출처와 학습 노트는 각 에피소드에서 확인하세요.</p></section>`;
   renderCards();
   main.querySelectorAll('[data-season]').forEach(b=>b.addEventListener('click',()=>{season=Number(b.dataset.season);main.querySelectorAll('[data-season]').forEach(x=>{x.classList.toggle('active',Number(x.dataset.season)===season);x.setAttribute('aria-pressed',Number(x.dataset.season)===season);});renderCards();}));
   document.querySelector('#episode-search').addEventListener('input',e=>{query=e.target.value;renderCards();});
@@ -97,14 +99,15 @@ async function importProgress(event) {
 }
 function render({focus=false}={}) {
   const route=location.hash.slice(1).split('/');
-  const page=route[0]||'episodes';
+  const page=route[0]||'reader';
   document.querySelectorAll('[data-nav]').forEach(n=>{const active=n.dataset.nav===(page==='lesson'?'episodes':page);n.classList.toggle('active',active);if(active)n.setAttribute('aria-current','page');else n.removeAttribute('aria-current');});
-  if(page==='lesson')renderLesson(route[1],route[2],Number(route[3]||0));
+  if(page==='reader')renderReader(main,course,route[1]||'S01E01',notify).catch(()=>{main.innerHTML='<p class="error">읽기 화면을 열지 못했습니다. 페이지를 새로고침해 주세요.</p>';});
+  else if(page==='lesson')renderLesson(route[1],route[2],Number(route[3]||0));
   else if(page==='expressions')renderExpressions();
   else if(page==='review')renderReview();
   else renderCatalog();
   updateBadge();
-  document.title=`${page==='lesson'?(course.episodes.find(e=>e.id===route[1])?.title||'학습 노트'):page==='review'?'복습':page==='expressions'?'표현 노트':'영어와 생각의 연습'} | The Newsroom Study`;
+  document.title=`${page==='lesson'?(course.episodes.find(e=>e.id===route[1])?.title||'학습 노트'):page==='review'?'복습':page==='reader'?'영한 연속 읽기':page==='expressions'?'표현 노트':'영어와 생각의 연습'} | The Newsroom Study`;
   if(focus){main.focus({preventScroll:true});window.scrollTo({top:0,behavior:'instant'});}
 }
 try {

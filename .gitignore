@@ -2,3 +2,6 @@
 __pycache__/
 *.pyc
 newsroom-progress-*.json
+newsroom-reader-*.json
+*.srt
+*.vtt
